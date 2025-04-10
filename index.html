@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="infoBar flex">
+            <div class="barContact">
+                <a href="mailto:info@TripPlan.com"><i class="ri-mail-fill"></i> info@TripPlan.com</a>
+                <a href="tel:01133446900"><i class="ri-phone-fill"></i> 01133446900</a>
+            </div>
+            <div class="logIn flex">
+                <div class="customer Log-in">
+                    <a href="">Customer Login</a>
+                </div>
+                <div class="agent Log-in">
+                    <a href="">Agent Login</a>
+                </div>
+                <div class="download flex">
+                    <div class="store flex"><a href=""><i class="ri-google-play-fill"></i></a></div>
+                    <div class="store flex"><a href=""><i class="ri-apple-fill"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <nav class="navBar flex">  
+            <div class="logo">
+                <img src="inventory\logo.jpeg" alt="">
+            </div>
+            <div class="navList flex">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Manage Bookings</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">More</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="heroSection flex">
+            <form action="" class="form flex">
+                <div class="formorigin formItem">
+                    <select name="origin" id="origin">
+                        <option value="'Dehradun">Dehradun</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Agra">Agra</option>
+                        <option value="Dharamshala">Dharamshala</option>
+                        <option value="Manali">Manali</option>
+                        <option value="Shimla">Shimla</option>
+                        <option value="Mussoorie">Mussoorie</option>
+                        <option value="Kedarnath">Kedarnath</option>
+                        <option value="Vrindavan">Vrindavan</option>
+                        <option value="Risikesh">Risikesh</option>
+                    </select>
+                </div>
+                <div class="formIcon formItem">
+                    <i class="ri-arrow-left-right-line"></i>
+                </div>
+                <div class="formDestination formItem flex">
+                    <select name="destination" id="destination">
+                        <option value="'Dehradun">Dehradun</option>
+                        <option value="Delhi" selected>Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Agra">Agra</option>
+                        <option value="Dharamshala">Dharamshala</option>
+                        <option value="Manali">Manali</option>
+                        <option value="Shimla">Shimla</option>
+                        <option value="Mussoorie">Mussoorie</option>
+                        <option value="Kedarnath">Kedarnath</option>
+                        <option value="Vrindavan">Vrindavan</option>
+                        <option value="Risikesh">Risikesh</option>
+                    </select>
+                </div>
+                <div class="formGodate formItem">
+                    <input type="date" name="godate" id="godate" placeholder="Go date">
+                </div>
+                <div class="fromReturndate formItem">
+                    <input type="date" name="returndate" id="returndate" placeholder="Return">
+                </div>
+                <button class="formSearch">SEARCH</button>
+            </form>
+        </section>
+        <section class="popularRoutes Container">
+            <h2>POPULAR ROUTES</h2>
+            <div class="cardContainer flex">
+                <div class="cards" style="background-image: url(inventory/dehradunCard.jpg);">
+                    <div class="cardTitle">Delhi-Dehradun</div>
+                </div>
+                <div class="cards" style="background-image: url(inventory/rishikeshCard.jpg);">
+                    <div class="cardTitle">Delhi-Rishikesh</div>
+                </div>
+                <div class="cards" style="background-image: url(inventory/manaliCard.jpg);">
+                    <div class="cardTitle">Delhi-Manali</div>
+                </div>
+                <div class="cards" style="background-image: url(inventory/dharamshalaCard.jpg);">
+                    <div class="cardTitle">Delhi-Dharamshala</div>
+                </div>
+            </div>
+        </section>
+        <section class="amenities Container">
+            <h2>AMENITIES</h2>
+            <div class="amenitiesboxContainer flex">
+                <div class="amentiesBox">
+                    <img src="inventory\charging-point.png" alt="">
+                    <h3>CHARGING POINT</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\blanket.png" alt="">
+                    <h3>BLANKET</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\emergency-Exit.png" alt="">
+                    <h3>EMERGENCY EXIT</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\fire-extinguisher.png" alt="">
+                    <h3>FIRE EXTINGUISHER</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\launge.png" alt="">
+                    <h3>Trip LOUNGE</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\pillow.png" alt="">
+                    <h3>PILLOW</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\24-x-7.png" alt="">
+                    <h3>24/7 CUSTOMER SUPPORT</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\water-bottle.png" alt="">
+                    <h3>WATER BOTTLE</h3>
+                </div>
+                <div class="amentiesBox">
+                    <img src="inventory\live-tracking.png" alt="">
+                    <h3>LIVE TRACKING</h3>
+                </div>
+            </div>
+        </section>
+        <section class="salientFeatures Container">
+            <div class="ad">
+                <img src="inventory\trip-6.jpeg" alt="">
+            </div>
+            <h2>SALIENT FEATURES</h2>
+            <div class="salientsItemContainer flex">
+                <div class="salientsItem">
+                    <img src="inventory\Trip-driver.png" alt="">
+                    <h3>Professional Driver</h3>
+                </div>
+                <div class="salientsItem flex">
+                    <img src="inventory\customer_support.png" alt="">
+                    <h3>Customer Support</h3>
+                </div>
+                <div class="salientsItem flex">
+                    <img src="inventory\online_cancellation.png" alt="">
+                    <h3>Cancellation On Net</h3>
+                </div>
+                <div class="salientsItem flex">
+                    <img src="inventory\online-payment.png" alt="">
+                    <h3>Online Payment</h3>
+                </div>
+                <div class="salientsItem flex">
+                    <img src="inventory\secure_safe.png" alt="">
+                    <h3>Secure Safe</h3>
+                </div>
+                <div class="salientsItem flex">
+                    <img src="inventory\ticket_booking.png" alt="">
+                    <h3>Ticket Booking</h3>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials Container">
+            <h2>TESTIMONIALS</h2>
+            <div class="testimonialsContant flex">
+                <img src="inventory\testimonials-profile.png" alt="">
+                <p>I travelled from Lucknow to Sonipat by Trip Plans with my friends. The Tripes were well-maintained and the staff was very courteous towards us. It feels great to be travelling on a Trip operating company that shows complete concern towards passenger's comfort.</p>
+                <h3>Aman Rawat  </h3>
+            </div>
+        </section>
+        <section class="gallery flex">
+            <h2>GALLERY</h2>
+            <p>Are you looking out for luxurious Tripes? Just check out images of our huge fleet of comfortable Tripes at the most reasonable rates.</p>
+            <div class="galleryGrid">
+                <div class="galleryItem-1 grid"><img src="inventory\trip-1.jpeg" alt=""></div>
+                <div class="galleryItem-2 grid"><img src="inventory\trip-2.jpeg" alt=""></div>
+                <div class="galleryItem-3 grid"><img src="inventory\trip-6.jpeg" alt=""></div>
+                <div class="galleryItem-4 grid"><img src="inventory\trip-3.jpeg" alt=""></div>
+                <div class="galleryItem-5 grid"><img src="inventory\trip-5.jpeg" alt=""></div>
+                <div class="galleryItem-6 grid"><img src="inventory\trip-4.jpeg" alt=""></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="thankyou flex">
+            <img src="inventory\bottom.png" alt="">
+            <p>Trip Plan Thanking to all our Valuable Customers!</p>
+            <h3>Wish you a Happy and Comfortable Journey</h3>
+        </div>
+        <section class="bottom">
+            <div class="bottomContainer">
+                <div class="bottomContact bottomElements">
+                    <h2>CONTACT</h2>
+                    <div class="bottomContant">
+                        <h3><a href=""><i class="ri-map-pin-2-fill"></i>Trip Tour</a></h3>
+                        <p>
+                           Sangam Vihar road. Jagatpur Extension Wazirabad,
+                           Jagatpur Extension Wazirabad,
+                           Delhi,
+                           Delhi -110054
+                        </p>
+                        <a href="tel:01144446900"><i class="ri-phone-fill"></i>01144446900</a>
+                        <a href="mailto:info@TripPlan.com"><i class="ri-mail-fill"></i>info@TripPlan.com</a>
+                    </div>
+                </div>
+                <div class="quickLinks bottomElements ">
+                    <h2>QUICK LINKS</h2>
+                    <div class="quickContainer">
+                    <div class="quicklinkElements">
+                        <ul>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Careers</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Feedback</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Terms & Conditions</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Sitemap</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>FaQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="quicklinkElements">
+                        <ul>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Contact</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Schedules</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Refund Status</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Agent Login</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Confirm Phone Booking</a></li>
+                        </ul>
+                    </div>
+                    <div class="quicklinkElements">
+                        <ul>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Testimonials</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Privacy Policy</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Download App</a></li>
+                            <li><a href=""><i class="ri-arrow-right-double-line"></i>Agents Registration</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="followUs bottomElements">
+                    <h2>FOLLOW US</h2>
+                    <a href=""><i class="ri-facebook-box-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="rights"><p>© 2025 All rights reserved.Trip Plan</p></div>
+        </section>
+    </footer>
+</body>
+</html>

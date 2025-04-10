@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato",sans-serif !important;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Top Bar starts here */
+.infoBar{
+    background-color: #9d4f02 !important;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 4rem;
+}
+.barContact a{
+    font-size: 1rem;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff
+}
+.Log-in a{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+.store{
+    background-color: #fff;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+}
+.store a{
+    font-size: 1.2rem;
+    color: #9d4f02;
+    text-decoration: none;
+}
+/* NavBar start here */
+.navBar{
+    background-color: #fff;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 0rem 3rem;
+}
+.logo img{
+    width: 100%;
+    height: 6rem;
+    object-fit: cover;
+}
+.navList ul{
+    list-style: none;
+}
+.navList ul li{
+    display: inline; 
+    margin-right: 1.5rem;
+}
+.navList ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+}
+/* nav Bar complete here */
+
+/* herosection starts here */
+.heroSection{
+    background-image: url(inventory/herosectionbmg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    margin-bottom: 3rem;
+}
+/* form Section */
+.form{
+    background-color: #9d4f02;
+    width: 90%;
+    height: 4rem;
+    gap: 0.5rem;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    transform: translate(0px, 12.5rem);
+}
+.formItem select, input{
+    width: 13rem;
+    height: 2rem;
+    padding-left: 1rem;
+    border: none;
+    color: rgb(86, 86, 86);
+}
+.formIcon i{
+    color: #fff;
+}
+.formSearch{
+    width: 10rem;
+    height: 2rem;
+    background-color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+/* form section complete here */
+
+/* Now Other section are beggan from below*/
+.Container{
+    height: 30rem;
+}
+.Container h2{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding : 2rem 0rem;
+}
+/* Popular Routes Section Start here */
+.popularRoutes h2{
+   text-align: center;
+   color: #000000;
+}
+.cardContainer{
+    gap: 3rem;
+}
+.cards{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 3rem;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.cardTitle{
+    text-align: center;
+    margin: 0rem 3rem;
+    margin-top: 16rem;
+    padding: 1rem 0rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 2rem;
+}
+/* Popular Routes Section  End here */
+/* Amenities Section */
+.amenities{
+    background-color: #9d4f02;
+}
+.amenitiesboxContainer{
+    gap: 3rem;
+}
+.amentiesBox{
+    font-size: 1rem;
+    width: 20rem;
+    height: 5rem;
+    background-color: #fff;
+    color: rgb(228, 40, 38);;
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 1rem;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.amentiesBox:hover{
+    background-color: rgb(255, 208, 0);
+    color: black;
+}
+/* Amenities Section End here*/
+/* Salient Features */
+.ad img{
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+}
+.salientFeatures h2{
+    color: #000000;
+}
+.salientsItemContainer{
+    gap: 2rem;
+}
+.salientsItem {
+    flex-direction: row;
+    font-size: 1rem;
+    width: 6rem;
+    height: 6rem;
+    border-top-right-radius: 70px;
+    padding: 2.5rem;
+    border-left: 12px solid #48437f;
+    border-bottom-left-radius: 70px;
+    border-right: 2px solid #48437f;
+}
+.salientsItem img{
+    width: 5rem;
+    height: 5rem;
+    padding-top: -1rem;
+}
+.salientsItem h3{
+    font-size: 1rem;
+    text-align: center;
+}
+/* Salient Features Ends here*/
+/* Testimonials start here*/
+.testimonials{
+    background-color: #fab020;
+}
+.testimonials h2{
+    color: #000000;
+}
+.testimonialsContant img{
+    width: 15%;
+    height: 8rem;
+    object-fit: cover;
+}
+.testimonialsContant p{
+    font-size: 1.5rem;
+    padding: 1rem 15rem;
+    text-align: center;
+}
+.testimonialsContant h3{
+    font-size: 1.5rem;
+}
+/* Testimonials ends here*/
+/* Gallery grid starts here */
+.gallery{
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.gallery h2{
+    color: #000000;
+    font-size: 2rem;
+    padding : 2rem 0rem;
+}
+.galleryGrid{
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(4,200px);
+    grid-gap: 3rem;
+}
+.grid{
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s;
+}
+.grid:hover{
+   transform: scale(1.1);
+   z-index: 2;
+}
+.grid img {
+    width: 100%;
+    height: 100%;
+}
+.galleryItem-2{
+    grid-area: 1/2/4/5;
+}
+.galleryItem-4{
+    grid-area: 2/1/4/2;
+}
+.galleryItem-5{
+    grid-area: 2/5/4/6;
+}
+.galleryItem-6{
+    grid-area: 4/1/5/6;
+}
+/* Gallery grid ends here */
+/* footer strat here */
+.thankyou{
+    margin-top: 2rem;
+    height: 16rem;
+    background-color: #fab020;
+    flex-direction: column;
+    gap: 1rem;
+}
+.thankyou img{
+    width: 7%;
+    height: 7rem;
+    object-fit: cover;
+}
+.thankyou p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.thankyou h3{
+    font-size: 3.5rem;
+}
+/* Bottom start here*/
+.bottom{
+    background-color: #9d4f02;
+    padding: 5rem 7rem 0rem;
+}
+.bottomContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.bottomElements{
+    height: 15rem;
+    line-height: 1.5rem;
+}
+.bottomElements h2{
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+.bottomContant{
+    display: flex;
+    flex-direction: column;
+}
+.bottomContant h3{
+    font-size: 1.3rem;
+    color: #fff;
+}
+.bottomContant p{
+    color: #fff;
+    width: 14rem;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+}
+.bottomContant a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #fff
+}
+.bottomContant i, .quicklinkElements i{
+    margin-right: 1rem;
+}
+.quickContainer{
+    display: flex;
+    gap: 3rem;
+}
+.quicklinkElements{
+    width: 12rem;
+}
+.quicklinkElements ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    list-style-type: none;
+}
+.quicklinkElements ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.quicklinkElements ul li a:hover{
+    margin-left: 0.5rem;
+}
+.followUs a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 2rem;
+}
+.rights p{
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+/* Bottom end here*/
+/* footer end here */
+
+
+
+/* Media Query */
+
+@media (max-width:425px), (max-width:768px) {
+    .logIn{
+        gap: 10rem;
+    }
+    .infoBar {
+        justify-content: center;
+        padding: 0px 0px;
+        height: 3rem;
+    }
+    .barContact{
+        display: none;
+    }
+    .store {
+        width: 2rem;
+        height: 1.5rem;
+        margin: 5px;
+    }
+    .store a {
+        font-size: 1rem;
+    }
+    .navList ul {
+       display: none;
+    }
+    .heroSection {
+       height: 17rem;
+    }
+    .formItem {
+        width: 13rem;
+        height: 2rem;
+    }
+    .formIcon{
+        display: none;
+    }
+    .form{
+        height: 15rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.7rem;
+        width: 70%;
+    }
+    .formItem input{
+        width: 12rem;
+    }
+    .Container{
+        height: auto;
+        margin-bottom: 3rem;
+    }
+    .popularRoutes{
+        margin-top: 12rem;
+    }
+    .amenities {
+        padding-bottom: 4rem;
+    }
+    .salientsItemContainer {
+        flex-direction: column;
+    }
+    .testimonialsContant p{
+        font-size: 1.1rem;
+        padding: 0rem 2rem;
+        text-align: center;
+    }
+    .testimonialsContant h3{
+        font-size: 1.2rem;
+        margin: 3rem;
+    }
+    .gallery{
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+    .gallery p{
+        color: #000000;
+        font-size: 1rem;
+        padding : 0rem 4rem;
+        text-align: center;
+    }
+    .grid {
+        height: 15rem;
+        width: 19rem;
+    }
+    .galleryGrid{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .thankyou{
+        height: auto;
+        padding: 1rem;
+    }
+    .thankyou img {
+        width: 15%;
+        height: auto;
+        object-fit: cover;
+    }
+    .thankyou p{
+        font-size: 0.8rem;
+    }
+    .thankyou h3{
+        font-size: 1.1rem
+    }
+   .bottom {
+        padding: 2rem 1rem 0rem;
+    }
+    .bottomElements{
+        height: auto;
+        margin: 1rem 0rem;
+    }
+    .bottomContainer {
+        flex-direction: column;
+    }
+    .quickContainer{
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    .quicklinkElements{
+        width: 12rem;
+    }
+    .quicklinkElements ul li a {
+        font-size: 0.7rem;
+    }
+}
+
